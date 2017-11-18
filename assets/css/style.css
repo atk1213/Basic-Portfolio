@@ -1,0 +1,126 @@
+.header {
+    position: fixed;
+    background-color: white;
+    border-bottom: 10px;
+    border-color: grey;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.about {
+    position: fixed;
+    font-size: 20px;
+    color: grey;
+    right: 560px;
+    top: 50px;
+}
+
+.portfolio {
+    position: fixed;
+    font-size: 20px;
+    color: grey;
+    right: 440px;
+    top: 50px;
+}
+
+.contact {
+    position: fixed;
+    font-size: 20px;
+    color: grey;
+    right: 340px;
+    top: 50px;
+}
+
+h1 {
+    position: fixed;
+    background-color: teal;
+    color: white;
+    margin-left: 15%;
+    height: 50px;
+    top: 0;
+    margin-top: 0;
+    text-align: center;
+    padding: 30px 20px 20px 20px;  
+
+}
+
+body {
+    background-image: url("../images/fresh_snow.png");
+    height: 100%;
+
+}
+
+.contentname {
+    border-bottom-style: solid;
+    border-width: 3px;
+    border-top-color: rgb(228, 227, 227);
+    color: teal;
+
+}
+
+.content {
+    float: left;
+    width: 650px;
+    margin-top: 150px;
+    margin-left: 15%;
+    border-color: grey;
+    border: 10px;
+    background-color: white;
+    padding: 10px;
+
+}
+
+.contactinfo {
+    color: teal;
+    background-color: white;
+    width: 270px;
+    position: relative;
+    float: left;
+    top: 150px;
+    text-align: left;
+    margin-left: 40px;
+    padding: 
+}
+
+.connect {
+    border-bottom-style: solid;
+    border-width: 3px;
+    border-top-color: rgb(228, 227, 227);
+}
+
+.github {
+    float:right;
+    margin-right: 15%;
+    margin-left: 10%;
+    height: auto;
+
+}
+
+.linkedin {
+    float: right;
+    margin-left: 10%
+
+}
+
+.overflow {
+    float:right;
+    
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgb(97, 97, 97);
+    color: black;
+    border-top-style: solid;
+    border-width: 5px;
+    border-top-color: teal;
+    text-align: center;
+    padding: 10px 0px 10px 0px
+}
