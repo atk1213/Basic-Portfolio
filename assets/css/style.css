@@ -13,6 +13,7 @@
 
 .about {
     position: fixed;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 20px;
     color: grey;
     right: 560px;
@@ -21,6 +22,7 @@
 
 .portfolio {
     position: fixed;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 20px;
     color: grey;
     right: 440px;
@@ -29,6 +31,7 @@
 
 .contact {
     position: fixed;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 20px;
     color: grey;
     right: 340px;
@@ -37,6 +40,7 @@
 
 h1 {
     position: fixed;
+    font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 30px;
     font-weight: bold;
     background-color: teal;
@@ -51,6 +55,7 @@ h1 {
 }
 
 h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 30px;
     font-weight: bold;
 }
@@ -82,11 +87,102 @@ body {
 }
 
 .bio {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     padding: 10px;
 
 }
 
+.name {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 10px;
+
+}
+
+.namein {
+    width: 80%;
+    padding: 0 10px 0 10px
+}
+
+.email {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 10px 10px 10px 10px;
+
+}
+
+.emailin {
+    width: 80%;
+    padding: 0 10px 0 10px
+}
+
+.message {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 10px 10px 10px 10px;
+
+}
+
+.messagein {
+    width: 80%;
+    padding: 0 10px 0 10px
+}
+
+.hangmani, .rpgi, .triviai, .widgeti {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    float:right;
+    display: inline-block;
+    padding-right:50px;
+}
+
+.hangman {
+	position:absolute;
+	top:350px;
+	width:200px;
+	padding:10px 0 10px 0;
+	color:white;
+	background: #4aaaa5;
+	margin-left: 360px;
+	text-align: center;
+}
+
+.rpg {
+	position: absolute;
+	top:350px;
+	margin-left: 70px;
+	width: 200px;
+	padding:10px 0 10px 0;
+	text-align: center;
+	background: #4aaaa5;
+	color: white;
+
+}
+
+.trivia {
+	position: absolute;
+	top:600px;
+	margin-left: 360px;
+	width: 200px;
+	padding:10px 0 10px 0;
+	padding:10px 0 10px 0;
+	text-align: center;
+	background: #4aaaa5;
+	color:white;
+}
+
+.widget {
+	position: absolute;
+	top:600px;
+	margin-left: 70px;
+	width: 200px;
+	padding:10px 0 10px 0;
+	padding:10px 0 10px 0;
+	text-align: center;
+	background: #4aaaa5;
+    color: white;
+}
+
 h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 20px;
     font-weight: bold;
 }
@@ -130,7 +226,8 @@ h3 {
 }
 
 .footer {
-    position: absolute;
+    position: fixed;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     right: 0;
     bottom: 0;
     left: 0;
@@ -140,5 +237,5 @@ h3 {
     border-width: 5px;
     border-top-color: teal;
     text-align: center;
-    padding: 10px 0px 10px 0px
+    padding: 10px 0px 10px 0px;
 }
